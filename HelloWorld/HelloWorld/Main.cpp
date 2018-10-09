@@ -6,5 +6,5 @@
 #include <iostream>
 
 int main(){
-	std::cout << "Hello world!" << std::endl;
+	std::cout << "Hello world!" << std::endl; // Prints "Hello World!" to console and takes a new line
 }
