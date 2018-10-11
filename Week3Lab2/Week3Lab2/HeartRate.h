@@ -9,8 +9,13 @@ private:
 public:
 	HeartRate();
 // Constructor receives input for attriubtes
-	getBirthDay(int birthDay);
-	getBirthMonth(int birthMonth);
-	getBirthYear(int birthYear);
+	int getBirthDay();
+	int getBirthMonth();
+	int getBirthYear();
+	
+
+	void setBirthDay(int birthDay);
+	void setBirthMonth(int birthMonth);
+	void setBirthYear(int birthYear);
 };
 

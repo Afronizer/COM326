@@ -7,18 +7,27 @@ HeartRate::HeartRate()
 
 }
 
-HeartRate::getBirthDay(int birthDay)
+int HeartRate::getBirthDay(int birthDay)
 {
-	cin >> "Enter day of month";
+	std::cout << "Enter day of birth";
+	std::cin >> birthDay;
+	return birthDay;
+	
 }
 
-HeartRate::getBirthMonth(int birthMonth)
+int HeartRate::getBirthMonth(int birthMonth)
 {
-	cin >> "Enter month of birth";
+	std::cout << "Enter month of birth.";
+	std::cin >> birthMonth;
+	return birthMonth;
+	
 }
 
-HeartRate::getBirthYear(int birthYear)
+int HeartRate::getBirthYear(int birthYear)
 {
-	cin >> " Enter year of birth";
+	std::cout << "Enter year of birth";
+	std::cin >> birthYear;
+	return birthYear;
 }
+
 
