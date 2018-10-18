@@ -119,4 +119,5 @@ std::string Student::CaluculateClassification() {
 	else {
 		return "Fail";
 	}
+	
 }
